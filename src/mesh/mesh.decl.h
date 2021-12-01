@@ -134,9 +134,9 @@ struct RemeshOptions
     typedef TopoVert* Vptr;
     typedef TopoEdge* Eptr;
     typedef TopoTri*  Tptr;
-    //using Vptr = TopoVert*;
-    //using Eptr = TopoEdge*;
-    //using Tptr = TopoTri*;
+    using Vptr = TopoVert*;
+    using Eptr = TopoEdge*;
+    using Tptr = TopoTri*;
 // end internal items
 
 
